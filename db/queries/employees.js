@@ -6,7 +6,7 @@ export async function createEmployee({ name, birthday, salary }) {
   INSERT INTO employees
     (name, birthday, salary)
   VALUES
-    ($1, $2, $3)
+    ($1, $2, $3)q
   Returning *
   `;
 
